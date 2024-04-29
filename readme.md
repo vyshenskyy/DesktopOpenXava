@@ -1,4 +1,4 @@
-# DesktopOpenJava
+# DesktopOpenXava
 
 ## Running OpenXava web application as a standalone desktop program
 
