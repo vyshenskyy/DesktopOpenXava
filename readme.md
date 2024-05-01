@@ -16,7 +16,7 @@ OpenXava applications are designed to run on servers with database management sy
 
 ### Run Maven
 
-Run `mvn clean package` or `mvn clean install` from the directory of the parent project `DesktopOpenJava`. You can also run Maven from your IDE. The result will be written to the `target` folder of this parent project. You will find `RunWebApp-jar-with-dependencies.jar` and `start.bat` that can be used to run the executable .jar on Windows.
+Run `mvn clean package` or `mvn clean install` from the directory of the parent project `DesktopOpenJava`. You can also run Maven from your IDE. The result will be written to the `target` folder of this parent project. You will find `RunWebApp-jar-with-dependencies.jar`,   `start.bat` that can be used to run the executable .jar on Windows, and `start.sh` to run the executable .jar on Linux.
 
 #### Notes: 
 
@@ -31,6 +31,13 @@ private static final String APP_NAME = "OpenXavaSample";
 * Put two files (`RunWebApp-jar-with-dependencies.jar` and `start.bat`) in some empty folder and run `start.bat`.
 
 `start.bat` opens a separate command prompt window and runs the application. To stop the application, just close this window. To run the system again, run `start.bat` again. The system will use  all files and folders generated in previous run.
+
+### How to use (on Linux)
+
+* Put two files (`RunWebApp-jar-with-dependencies.jar` and `start.sh`) in some empty folder and run `start.sh`.
+
+`start.sh` opens a separate gnome terminal window and runs the application. To stop the application, just close this window. To run the system again, run `start.sh` again. The system will use  all files and folders generated in previous run. If you have a different terminal emulator, edit `start.sh` file and replace `gnome-terminal -- ` with the appropriate command, e.g. `xterm -e ` or `konsole -e `.
+
 
 ### How to insert an existing .war into the executable .jar
 

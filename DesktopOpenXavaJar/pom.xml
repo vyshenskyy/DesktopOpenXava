@@ -44,13 +44,13 @@
 			<resource>
 				<directory>src/main/resources</directory>
 				<excludes>
-					<exclude>start.bat</exclude>
+					<exclude>start.*</exclude>
 				</excludes>
 			</resource>
 			<resource>
 				<directory>src/main/resources</directory>
 				<includes>
-					<include>start.bat</include>
+					<include>start.*</include>
 				</includes>
 				<targetPath>${project.build.directory}/../../target</targetPath>
 			</resource>
